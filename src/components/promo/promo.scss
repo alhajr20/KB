@@ -1,0 +1,12 @@
+.promo {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    // border: 2px solid #1f927b;
+    background: url('https://images.pexels.com/photos/317371/pexels-photo-317371.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center/cover no-repeat;
+    h1 {
+        text-align: center;
+        z-index: 2;
+    }
+}

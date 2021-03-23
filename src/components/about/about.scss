@@ -1,0 +1,56 @@
+.about {
+    padding: 100px 0;
+    &__title {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    &__text {
+        color: rgb(109, 109, 109);
+        p {
+            line-height: 35px;
+        }
+    }
+    &__avatar {
+        text-align: center;
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+    }
+    &__position {
+        text-align: center;
+        padding: 10px 0;
+    }
+    address {
+        text-align: center;
+        svg {
+            margin-right: 5px;
+        }
+    }
+    &__skills {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        span {
+            padding: 5px 10px;
+        }
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        a:first-child {
+            color: #1DA1F2;
+        }
+        a:nth-child(2) {
+            color:  #d6249f;
+        }
+        a:nth-child(3) {
+            color:  #0077B5;
+        }
+        a:last-child {
+            color: #211F1F;
+        }
+    }
+}
